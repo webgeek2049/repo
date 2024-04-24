@@ -1,0 +1,67 @@
+.univ-part {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.gStar {
+  position: relative;
+  :first-child {
+    display: block;
+  }
+  :nth-child(2) {
+    position: absolute;
+    height: 0.5px;
+    width: 100%;
+    border: 0.5px solid black;
+    bottom: 50%;
+    border-radius: 50%;
+  }
+}
+.gStar.left {
+  direction: ltr;
+  :nth-child(1) {
+    padding-left: 50px;
+  }
+}
+.gStar.right {
+  direction: rtl;
+  :nth-child(1) {
+    padding-right: 50px;
+  }
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel{
+  text-align: center;
+}
+
+.carousel img{
+  object-fit: cover;
+  zoom: 0.8;
+}
+
+.uni-carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.uni-carousel-inner {
+  display: flex;
+  animation: scrolling 40s linear infinite;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.uni-logo-container {
+  flex: 0 0 auto;
+  margin-right: 4rem;
+  text-align: center;
+}

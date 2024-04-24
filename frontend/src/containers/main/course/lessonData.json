@@ -1,0 +1,69 @@
+{
+  "title": "Algorithmic Beginner",
+  "level": "level",
+  "lessonMenu": [
+    "Introduction",
+    "Lesson 1",
+    "Lesson 2",
+    "Lesson 3"
+  ],
+  "content": [
+    {
+      "lesson": "Introduction",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": [
+            "If statement is used to make decisions based on conditions. It allows the program to execute specific blocks of code only if certain conditions are met.",
+            "Here's how it works:",
+            "  1. Condition: The if statement starts with a condition. This condition is a boolean expression, which evaluates to either true or false.",
+            "  2. Execution: If the condition is true, the code block inside the if statement is executed. If the condition is false, the code block is skipped, and the program moves on to the next statement after the if block."
+          ]
+        },
+        {
+          "type": "code",
+          "language": "python",
+          "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+        }
+      ]
+    },
+    {
+      "lesson": "Lesson 1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": [
+            "In this lesson, we'll discuss the importance of understanding algorithmic complexity."
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "Lesson 2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": [
+            "This lesson will cover different types of sorting algorithms, such as bubble sort, insertion sort, and selection sort."
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "Lesson 3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": [
+            "In the final lesson, we'll explore recursion and its role in solving problems using divide and conquer techniques."
+          ]
+        },
+        {
+          "type": "code",
+          "language": "java",
+          "code": "public int fibonacci(int n) {\n    if (n <= 1)\n        return n;\n    else\n        return fibonacci(n-1) + fibonacci(n-2);\n}"
+        }
+      ]
+    }
+  ]
+}

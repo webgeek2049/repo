@@ -1,0 +1,34 @@
+.navbar-brand {
+    margin-right: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 6px 12px !important;
+    line-height: 150%;
+    margin-right: 10px;
+    font-family: var(--font-electrolize);
+    color: white;
+  }
+
+  .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    color: var(--bs-primary);
+  }
+  .navbar-nav .nav-link {
+    &.active,
+    &.show {
+      color: var(--bs-primary);
+    }
+  }
+
+  .navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); // Optional: Add shadow for better visibility
+}
+
+.blur-content {
+    filter: blur(8px); // Adjust the blur intensity as needed
+    transition: filter 0.3s ease; // Optional: Add a transition for smoother effect
+}

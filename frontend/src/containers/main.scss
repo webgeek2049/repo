@@ -1,0 +1,13 @@
+.main {
+  margin-top: calc(var(--header-height) + 48px);
+  margin-bottom: 48px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.main-2{
+  margin-top: var(--header-height);
+  margin-bottom: 0px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}

@@ -1,0 +1,57 @@
+.courses-dashboard {
+  margin-top: 90px;
+
+  .row {
+    justify-content: space-evenly;
+
+    .col-md-6 {
+      width: min-content;
+    }
+  }
+
+  .card {
+    max-width: 400px;
+    max-height: 300px;
+
+    .card-body {
+      .card-title {
+        font-size: 24px;
+      }
+
+      .level-item {
+        min-height: 54.6px;
+
+        a {
+          font-size: 18px;
+          color: inherit;
+
+          &:hover,
+          &:active,
+          &:focus {
+            color: #2300f7;
+          }
+        }
+      }
+    }
+
+    &.add {
+      flex-wrap: wrap;
+      justify-content: center;
+      .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        img{
+          height: 40px;
+          width: 40px;
+          cursor: pointer;
+        }
+      }
+      &:hover{
+        background-color: #E2ECFF;
+      }
+    }
+  }
+}

@@ -1,0 +1,288 @@
+body {
+  font-family: "Electrolize", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.signUp {
+  .underline {
+    margin-bottom: 20px;
+  }
+
+  .nav-signup {
+    padding-right: 92px;
+    font-family: "Electrolized", sans-serif;
+  }
+  .page-link {
+    cursor: pointer;
+    width: 308px;
+    text-align: center;
+    color: #2300f7;
+    border: solid 1px black;
+    font-family: "Electrolized", sans-serif;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .label-container {
+    width: 200px;
+  }
+
+  .input-wrapper {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 25px;
+    height: 35px;
+    width: 230px;
+  }
+
+  .input label {
+    margin-right: 10px;
+    white-space: nowrap;
+    color: black;
+    line-height: 24px;
+  }
+
+  .input input {
+    padding: 12px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 9px;
+  }
+
+  .signup-content {
+    display: flex;
+  }
+  .signup-container {
+    display: flex !important;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .p {
+    margin: 20px;
+  }
+
+  .p {
+    cursor: pointer;
+  }
+  .text-left {
+    margin-top: 50px;
+  }
+  .h2 {
+    margin-left: 50px;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left {
+    background-color: #2300f7;
+    color: white;
+    align-items: center;
+  }
+  .left img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .left h2 {
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    text-align: center;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .label-container {
+    width: 200px;
+  }
+
+  .input-wrapper {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 25px;
+    height: 35px;
+    width: 230px;
+  }
+
+  .text {
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 25px;
+  }
+
+  .input label {
+    margin-right: 10px;
+    white-space: nowrap;
+    color: black;
+    line-height: 24px;
+  }
+
+  .input input {
+    padding: 12px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 9px;
+  }
+  .nav-signup {
+    padding-right: 92px;
+    font-family: "Electrolized", sans-serif;
+  }
+  .page-link {
+    cursor: pointer;
+    width: 308px;
+    text-align: center;
+    color: #2300f7;
+    border: solid 1px black;
+    font-family: "Electrolized", sans-serif;
+  }
+  .btn {
+    width: 625px;
+    background-color: #2300f7;
+    color: white;
+    margin-top: 40px;
+  }
+
+  /* Media queries for responsiveness */
+  @media (max-width: 991px) {
+    .left img {
+      max-width: 150px;
+    }
+
+    .text-left {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .left p {
+      margin: 10px;
+    }
+
+    .page-link {
+      width: 100%;
+    }
+  }
+  .p2 {
+    display: none;
+  }
+
+  /* Media queries for tablets */
+  @media (max-width: 767px) {
+    .left img {
+      max-width: 200px;
+    }
+
+    .text-left {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .left p {
+      margin: 10px;
+    }
+  }
+
+  /* Media queries for phones */
+  @media (max-width: 575px) {
+    .container-signup {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center elements horizontally */
+    }
+    .p {
+      display: none;
+    }
+    .p2 {
+      display: block; /* Display the paragraph as a block element */
+      text-align: center; /* Center the paragraph text */
+      margin: 20px; /* Add space between the signup form and the paragraph */
+    }
+
+    .left,
+    .right {
+      flex: 1;
+      margin: 0;
+      text-align: center;
+    }
+    .nav-signup {
+      padding-left: 11px;
+      font-family: "Electrolized", sans-serif;
+    }
+    .page-link {
+      width: 120px;
+    }
+    .left {
+      width: 100%;
+    }
+
+    .left img {
+      width: 200px;
+      margin-bottom: 10px;
+      margin-left: 16px;
+    }
+
+    .right {
+      margin-top: 20px;
+    }
+
+    .input-container {
+      flex-direction: column; /* Stack label and input vertically */
+      margin-bottom: 15px;
+    }
+
+    .input-wrapper {
+      width: 100%; /* Take up full width */
+    }
+
+    .btn {
+      width: 100%; /* Take up full width */
+      margin-top: 20px; /* Adjust margin */
+    }
+
+    .SignUp {
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  }
+}

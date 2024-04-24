@@ -1,0 +1,28 @@
+@import "../dashboard.scss";
+
+.photo-upload {
+    .section-0 {
+        /* Add any specific styles for section-0 if needed */
+    }
+    .section-1 {
+        display: flex;
+    }
+    .section-2 {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .section-3 {
+        flex-direction: column;
+    }
+    .image-preview-container {
+        width: 320px; /* Set a fixed width */
+        height: auto; /* Let the height adjust based on the image aspect ratio */
+        max-height: 320px; /* Limit the height to prevent it from growing too large */
+        overflow: hidden; /* Hide overflow content */
+    }
+    .image-preview-container img {
+        width: 100%; /* Ensure the image takes full width */
+        height: 320px; /* Let the height adjust based on the image aspect ratio */
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+}

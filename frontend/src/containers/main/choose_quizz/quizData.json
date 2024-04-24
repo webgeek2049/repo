@@ -1,0 +1,35 @@
+[
+    {
+      "question": "What is the capital of France?What is the capital of France?What is the capital of France?What is the capital of France?",
+      "questionCode":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)",
+      "codeLanguage": "python",
+      "answers": ["London", "Paris", "Berlin", "Rome"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is 2 + 2?",
+      "answers": ["3", "4", "5", "6"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "answers": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answers": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "answers": ["H2O", "CO2", "NaCl", "O2"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "answers": ["True", "False"],
+      "correctAnswerIndex": 0
+    }
+  ]
+  

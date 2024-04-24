@@ -1,0 +1,49 @@
+
+.card-course {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    letter-spacing: 0em;
+    width: 250px;
+    height: 325px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0;
+  }
+.card-course:hover{
+    cursor: pointer;
+    transform: translate(4px, -4px);
+    box-shadow: -8px 8px 0 white;
+  }
+  
+.card-course-header {
+    background-color: var(--bs-primary) !important;
+    color: black;
+    padding: 4px;
+    padding-left: 12px;
+  }
+  
+.card-course-content {
+    padding-top: 8px !important;
+    flex-grow: 1; /* Fill remaining space */
+    color: black;
+    background-color: white;
+    line-height: 24px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 4px;
+    padding-left: 12px;
+    overflow: hidden;
+    /*text-overflow: ellipsis;
+    white-space: nowrap;*/
+  }
+  
+.card-course-footer {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    padding: 4px;
+    padding-left: 12px;
+  }

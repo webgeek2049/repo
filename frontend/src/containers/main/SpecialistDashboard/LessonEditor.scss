@@ -1,0 +1,46 @@
+.text-editor-window{
+    height: 100%;
+
+    .lesson-editor {
+      .forms {
+        height: 80%;
+        padding: 1rem;
+      }
+      .nd{
+        max-width: 75%;
+      }
+    }
+    
+    .lesson-control {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      .line {
+        display: block;
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #2300f7;
+        margin-bottom: 2rem;
+      }
+    }
+    
+    .monacoEditor{
+        height: 250px;
+        width: 100%;
+        padding: 0;
+        border-radius: var(--bs-border-radius);
+    }
+    
+    .dlt-field{
+      color: var(--bs-red);
+      cursor: pointer;
+      padding-top: .5rem;
+      padding-right: 1rem;
+      text-align: right;
+    }
+}
+
+
+

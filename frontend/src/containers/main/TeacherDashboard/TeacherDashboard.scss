@@ -1,0 +1,73 @@
+@import "../dashboard.scss";
+
+.teacher-dashboard, .stat-dashboard {
+  .col-2-3 {
+    width: calc(100% - 50%);
+  }
+  .col-1-3 {
+    width: calc(100% - 75%);
+  }
+
+  .card1-G {
+    width: 18rem;
+    height: min-content;
+    border-radius: 12px;
+    border: 1px solid #2300f7;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .card2-G {
+    width: 18rem;
+    height: 215px;
+    border-radius: 12px;
+    border: 1px solid #2300f7;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .card3-G {
+    width: 18rem;
+    height: 330px;
+    border-radius: 12px;
+    border: 1px solid #2300f7;
+    padding: 15px;
+    margin-top: 25px;
+  }
+
+  .small-left {
+    border: 1 px solid blue;
+  }
+
+  .small-right {
+    border: 1 px solid blue;
+  }
+
+  .table {
+    thead {
+      &:first-child {
+        border-style: hidden;
+      }
+      tr {
+        th{
+          padding: 0;
+        }
+      }
+    }
+    tbody{
+      &:last-child{
+        border-style: hidden;
+      }
+      tr{
+        border-color: #2300f7;
+        :first-child {
+          cursor: pointer;
+            &:hover{
+              color: #2300f7;
+          }
+        }
+        td{
+          padding: 24px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'fonts.scss';
+
+// Settings
+:root{
+  --header-height: ;
+}
+
+// Create your own map
+$primary:    #2300F7;
+$secondary:  #79FFBF;;
+$tertiary:   #6824FF;
+$quaternary: #F8FF5D;
+$custom-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "tertiary":   $tertiary,
+  "quaternary": $quaternary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Style
+
+*{
+  font-family: var(--font-electrolize);
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  width: auto !important;
+  box-sizing: border-box;
+}
+
+.w-95{
+  width: 95%;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-basis-30{
+  flex-basis: 30%;
+}
+.flex-basis-70{
+  flex-basis: 70%;
+}
+
+.btn{
+  padding: 6px 12px;
+  font-family: var(--font-electrolize);
+}
+
+.btn-primary, .btn-secondary, .btn-tertiary, .btn-quaternary {
+  border-color: black !important;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+.scrollable-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

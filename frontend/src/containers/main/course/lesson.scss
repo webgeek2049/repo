@@ -1,0 +1,89 @@
+.lesson {
+    display: flex;
+  }
+  
+  .lesson .title {
+    font-size: 1.8rem;
+  }
+  
+  .left-content {
+    flex: 0 0 30%;
+    padding-right: 20px;
+    position: relative;
+  }
+  
+  .left-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: .5px;
+    background-color: black;
+  }
+
+  
+  .title {
+    position: relative;
+  }
+  
+  .title img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% - 20px);
+    right: -20px; /* Adjust this value as needed to align it with the vertical line */
+  }
+  
+  .right-content {
+    position: relative;
+    flex: 0 0 70%;
+    padding-left: 100px;
+    padding-bottom: 64px;
+  }
+
+  .menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li span {
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .menu li span.active {
+    color: blue;
+  }
+
+  .menu li:disabled span{
+    color: gray; // problem
+    cursor: not-allowed; /* Add this to change cursor for disabled items */
+  }
+
+  #nextButton, #backButton, #quizzButtonStart{
+    position: absolute;
+    margin-left: 8px;
+    margin-right: 8px;
+    bottom: 16px;
+  }
+  #nextButton, #quizzButtonStart{
+    right: 16px;
+  }
+  #backButton{
+    right: 92px;
+  }
+
+  .code-container{
+    padding: 16px;
+    background-color: black;
+    border: 3px solid var(--bs-primary);
+  }
+  code{
+    color: white !important;
+  }

@@ -1,0 +1,193 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+}
+
+.login{
+    .container-login {
+        display: flex;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+    
+    
+    }
+    
+    .left-l, .right-l {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Electrolized', sans-serif;
+    }
+    
+    .left-l {
+        flex: 1.5;
+        background-color: #2300F7;
+        color: white;
+        align-items: center;
+    
+        font-family: 'Electrolized', sans-serif;
+    }
+    .Forgot-password {
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    
+    }
+    h3{
+        margin-top: 35px;
+    }
+    
+    .left-l img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    
+    }
+    
+    .left-l h2 {
+        margin-bottom: 10px;
+    }
+    
+    .left-l p {
+        text-align: center;
+    }
+    
+    .right-l {
+        padding: 20px;
+        flex: 1.5;
+    
+        margin-left: 80px;
+    }
+    
+    .input-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    .label-container {
+        width: 200px;
+    }
+    
+    .input-wrapper {
+        flex: 1;
+        margin-left: 10px;
+        font-size: 25px;
+        height: 35px;
+        width: 230px;
+    }
+    
+    .text {
+        font-size: 50px;
+        font-weight: 300;
+        color: black;
+        margin-bottom: 25px;
+        align-items: start;
+    
+    }
+    
+    .input label {
+        margin-right: 10px;
+        white-space: nowrap;
+        color: black;
+        line-height: 24px;
+    
+        font-family: 'Electrolized', sans-serif;
+    }
+    
+    .input input {
+        padding: 12px;
+    
+    }
+    
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 80%;
+        height: 100%;
+        border: 2px solid #000;
+        border-radius: 9px;
+    }
+    .page-link{
+        cursor: pointer;
+        width: 220px;
+        align-items: center;
+        text-align: center;
+        color: #2300F7;
+        border: solid 1px black;
+        font-family: 'Electrolized', sans-serif;
+    }
+    .btn{
+        width: 530px;
+        background-color: #2300F7;
+        color: white;
+    }
+    .SignUp{
+        margin-left: 120px;
+    
+    }
+    .welcome{
+        font-size: 50px;
+        margin-bottom: 35px;
+        color: white;
+    }
+    
+    /* For screens smaller than 768px (e.g., mobile devices) */
+    @media (max-width: 767px) {
+        .container-login {
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center elements horizontally */
+        }
+    
+        .left-l, .right-l {
+            flex: 1;
+            margin: 0;
+            text-align: center;
+        }
+        .left-l{
+        width: 100%;
+    }
+    
+        .left-l img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+    
+        .right-l {
+            margin-top: 20px;
+        }
+    
+        .input-container {
+            flex-direction: column; /* Stack label and input vertically */
+            margin-bottom: 15px;
+        }
+    
+        .input-wrapper {
+            width: 100%; /* Take up full width */
+        }
+    
+        .btn {
+            width: 100%; /* Take up full width */
+            margin-top: 20px; /* Adjust margin */
+        }
+    
+        .SignUp {
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+    }
+    
+    /* For screens larger than 768px (e.g., tablets and desktops) */
+    @media (min-width: 768px) {
+        .left-l {
+            padding-right: 20px;
+        }
+    
+        .right-l {
+            margin-left: 30px;
+        }
+    }
+}
